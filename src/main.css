@@ -35,10 +35,6 @@
     }
 }
 
-.nav-item {
-  position: relative;
-  display: inline-block;
-}
 
 .logo::before {
   content: '';
