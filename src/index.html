@@ -4,17 +4,22 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="../src/style.css" rel="stylesheet">
+  <script
+    src="https://kit.fontawesome.com/fbadad80a0.js"
+    crossorigin="anonymous"
+  ></script>
 </head>
+
 <body class="overflow-x-hidden">
-<nav class="flex w-full h-[80px]" style="justify-content: space-between; ">
+<nav class="flex w-full h-[8vh]" style="justify-content: space-between; ">
     <a href="index.html">
       <img class="logo w[63px] hover:bg-orange-400 hover:z-[-1] hover:rounded-md w-[63px] mt-[12px] h-auto mx-[3rem]" src="../assets/Gray and Black Simple Studio Logo.png" />
     </a>
-  <div class="justify-end hidden w-full p-4 font-semibold md:flex lg:flex text-black-500 hover mr-[3rem]">
-    <a href="#" class="px-6 py-3 nav-item relative">home</a>
-    <a href="#" class="px-6 py-3 nav-item relative">menu</a>
-    <a href="#" class="px-6 py-3 nav-item relative">about us</a>
-    <a href="#" class="px-6 py-3 text-center nav-item relative">contacts</a>
+  <div class="justify-end hidden w-full p-4 font-semibold md:flex lg:flex text-black-500 mr-[3rem]">
+    <a href="#" class="px-6 py-3 nav-item">home</a>
+    <a href="menu.html" class="px-6 py-3 nav-item">menu</a>
+    <a href="about.html" class="px-6 py-3 nav-item">about us</a>
+    <a href="about.html" class="px-6 py-3 text-center nav-item">contacts</a>
   </div>
   <div class="w-[25%] h-[100vh] pt-[] md:hidden lg:hidden text-black-500">
     <button class="p-4">
@@ -22,14 +27,15 @@
     </button>
   </div>
 </nav>
+
 <main>
-  <div class=" md:h-[90vh] flex items-center justify-center" >
+  <div class="h-[93vh] flex items-center justify-center" >
     <div class="flex flex-col md:flex-row items-center">
       <img class="w-[70%] md:w-[30vw] h-[100%]" src="../assets/nathan-dumlao-GkyrU8Olw2c-unsplash 2.png">
-      <div class="md:pl-[2rem] flex flex-col  justify-center">
+      <div class="md:pl-[2rem] flex flex-col  justify-center w-[70%]">
         <h1 class="text-[calc(1.5rem+5vw)] text-gray-950 font-extrabold ">MONOHAUS<span class="text-orange-400 font-bold">.</span></h1>
         <h2 class="text-[calc(1rem+0.5vw)] md:text-[calc(1rem+1vw)] font-bold text-orange-300">EXPERIENCE THE ART OF COFFEE.</h2>
-        <p class="text-[calc(0.5rem+1vw)] text-justify w-[70vw]  md:text-[calc(1rem+0.5vw)] font-semibold mt-[2vh] md:w-[40vw] text-gray-700">
+        <p class="text-[calc(0.5rem+1vw)] text-justify  md:text-[calc(1rem+0.5vw)] font-semibold mt-[2vh] md:w-[40vw] text-gray-700">
             Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
             Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
             when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
@@ -38,13 +44,13 @@
       </div>
     </div>
   </div>
-  <div class="bg-[#F2F2F2] w-[100vw] md:h-[100vh] flex items-center justify-center z-[-1] mt-[10vh]" >
+  <div class="bg-[#F2F2F2] w-[100vw] h-[100vh] flex items-center justify-center p-[3vh] md:p-0" >
     <div class="flex flex-col md:flex-row items-center">
       <img class="w-[70%] md:w-[30vw] md:hidden h-[100%]" src="../assets/coffee.png">
-      <div class="flex flex-col justify-center">
+      <div class="flex flex-col justify-center w-[70%] py-[1rem]">
         <h1 class="text-[calc(0.75rem+1.5vw)] md:tracking-wider font-bold ">Made using high-quality coffee</h1>
         <h2 class="text-[calc(1rem+0.5vw)] md:text-[calc(0.75rem+1vw)] font-semibold text-gray-700">we brew excellence in every cup.</h2>
-        <p class="text-[calc(0.5rem+1vw)] text-justify w-[70vw] md:text-[calc(1rem+0.5vw)] font-semibold mt-[2vh] md:w-[35vw] md:mr-[5vw] text-gray-700">
+        <p class="text-[calc(0.5rem+1vw)] text-justify md:text-[calc(1rem+0.5vw)] font-semibold mt-[2vh] md:w-[35vw] md:mr-[5vw] text-gray-700">
             Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
             Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
             when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
@@ -54,6 +60,73 @@
       <img class="hidden md:w-[30vw] md:block h-[100%] ml-[2rem]" src="../assets/coffee.png">
     </div>
   </div>
+<div class="product md:h-[100vh] flex  flex-col items-center justify-center">
+  <h1 class="text-[calc(0.75rem+1.5vw)] md:tracking-wider font-bold ">Our Best Sellers</h1>
+  <div class="card flex flex-col md:flex-wrap md:flex-row">
+  <div class="bg-gray-100 scale-75 w-[50vw] md:w-auto md:h-auto m-auto lg:mx-8 p-3 shadow-lg lg:my-[5rem] flex flex-col md:justify-center items-center border-black-400 hover:shadow-2xl hover:scale-100 rounded-xl">
+    <img class="border-solid border-black w-[100px] rounded-lg lg:w-[300px] h-auto" src="../assets/coldbrew.jpg">
+    <p class="text-orange- text-[2vh] font-semibold my-3">Most Popular</p>
+    <h1 class="text-gray-900 font-bold text-[3vh] md:text-xl my-4">Mono's Iced Cold-Brew</h1>
+</div>
+<div class="bg-gray-100 scale-75 w-[50vw] md:w-auto md:h-auto m-auto lg:mx-8 p-3 shadow-lg lg:my-[5rem] flex flex-col md:justify-center items-center border-black-400 hover:shadow-2xl hover:scale-100 rounded-xl">
+  <img class="border-solid border-black w-[100px] rounded-lg lg:w-[300px] h-auto" src="../assets/macchiato.jpg">
+  <p class="text-orange-400 text-[2vh] font-semibold my-3">All Time's Best Seller</p>
+  <h1 class="text-gray-900 font-bold text-[2vh] md:text-xl my-4"> Speciality Caramel Macchiato </h1>
+</div>
+<div class="bg-gray-100 scale-75 w-[50vw] md:w-auto md:h-auto m-auto lg:mx-8 p-3 shadow-lg lg:my-[5rem] flex flex-col md:justify-center items-center border-black-400 hover:shadow-2xl hover:scale-100 rounded-xl">
+  <img class="border-solid border-black w-[100px] rounded-lg lg:w-[300px] h-auto" src="../assets/brulee.jpg">
+  <p class="text-orange-400 text-[2vh] font-semibold my-3">Should Try!</p>
+  <h1 class="text-gray-900 font-bold text-[3vh] md:text-xl my-4"> Cold-Brew Brulee </h1>
+</div>
+<div class="bg-gray-100 scale-75 w-[50vw] md:w-auto md:h-auto m-auto lg:mx-8 p-3 shadow-lg lg:my-[5rem] flex flex-col md:justify-center items-center border-black-400 hover:shadow-2xl hover:scale-100 rounded-xl">
+  <img class="border-solid border-black w-[100px] rounded-lg lg:w-[300px] h-auto" src="../assets/chocolate.png">
+  <p class="text-orange-400 text-[2vh] font-semibold my-3">Cold-Weather's Favorite</p>
+  <h1 class="text-gray-900 font-bold text-[3vh] md:text-xl my-4"> Mono's Cacao (hot)</h1>
+</div>
+</div>
+</div>
+  <div class="bg-[#F2F2F2] w-[100vw] md:h-[100vh] p-[10vh] flex flex-col items-center mt-[10vh]" >
+    <h1 class="text-[calc(0.75rem+1.5vw)] md:mt-[10vh] md:tracking-wider font-bold ">Where To Find Us</h1>
+    <div class="flex justify-center mt-[5vw]">
+      <img src="../assets/bauhaus_dessau_3.jpg" class="w-[20vw] h-auto border-black">
+      <div class="flex flex-col justify-center ml-[2vh] w-[20vw]">
+        <h2 class="text-gray-900 font-bold text-[calc(1rem+1vw)]">MONOHAUS.</h2>
+        <p class="mt-[2vh] text-wrap text-[calc(0.5rem+0.5vw)]">Lorem Ipsum.st Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </p>
+        <p class="font-semibold mt-[2vh] text-wrap text-[calc(0.5rem+0.5vw)]">(+1) 21893712</p>
+      </div>
+    </div>
+  </div>
 </main>
 </body>
+<footer class="bg-[#F2F2F2] py-16 shadow-gray-500">
+  <div class="container mx-auto max-w-7xl">
+    <div class="flex flex-wrap justify-center">
+      <div class="w-full md:w-1/2 lg:w-1/4 px-4 mb-8 md:mb-0">
+        <h4 class="text-gray-900 text-lg font-medium mb-9 relative">company<span class="absolute bottom-[-10px] left-0 w-12 h-0.5 bg-orange-400"></span></h4>
+        <ul class="list-none">
+          <li class="mb-2.5"><a href="#" class="text-gray-400 hover:text-gray-900 transition-all duration-300">about us</a></li>
+          <li class="mb-2.5"><a href="#" class="text-gray-400 hover:text-gray-900 transition-all duration-300">our services</a></li>
+          <li class="mb-2.5"><a href="#" class="text-gray-400 hover:text-gray-900 transition-all duration-300">privacy policy</a></li>
+          <li class="mb-2.5"><a href="#" class="text-gray-400 hover:text-gray-900 transition-all duration-300">business</a></li>
+        </ul>
+      </div>
+      <div class="w-full md:w-1/2 lg:w-1/4 px-4 mb-8 md:mb-0">
+        <h4 class="text-gray-900 text-lg font-medium mb-9 relative">get help<span class="absolute bottom-[-10px] left-0 w-12 h-0.5 bg-orange-400"></span></h4>
+        <ul class="list-none">
+          <li class="mb-2.5"><a href="#" class="text-gray-400 hover:text-gray-900 transition-all duration-300">FAQ</a></li>
+          <li class="mb-2.5"><a href="#" class="text-gray-400 hover:text-gray-900 transition-all duration-300">returns</a></li>
+        </ul>
+      </div>
+      <div class="w-full md:w-1/2 lg:w-1/4 px-4">
+        <h4 class="text-gray-900 text-lg font-medium mb-9 relative">follow us<span class="absolute bottom-[-10px] left-0 w-12 h-0.5 bg-orange-400"></span></h4>
+        <div class="space-x-4 space-y-2.5">
+          <a href="#" class="inline-block h-10 w-10 bg-white bg-opacity-20 rounded-full text-center leading-10 text-orange-400 hover:bg-gray-400 hover:text-white transition-all duration-500"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="inline-block h-10 w-10 bg-[#F2F2F2] bg-opacity-20 rounded-full text-center leading-10 text-orange-400 hover:bg-gray-400 hover:text-white transition-all duration-500"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="inline-block h-10 w-10 bg-[#F2F2F2] bg-opacity-20 rounded-full text-center leading-10 text-orange-400 hover:bg-gray-400 hover:text-white transition-all duration-500"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
 </html>

@@ -23,9 +23,9 @@
   .nav-item:hover::before {
     width: 1.5rem;
     height: 1.5rem;
-    top: 54%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    /* top: 60%;
+    left: 50%; */
+    transform: translate(-50%, -40%);
   }
   
   @media (min-width: 1024px) {
@@ -52,7 +52,7 @@
 .logo:hover::before {
   width: 1.5rem;
   height: 1.5rem;
-  top: 54%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
